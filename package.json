@@ -1,0 +1,23 @@
+{
+  "name": "aspen-grove-omni-bridge",
+  "version": "4.0.0",
+  "description": "Supreme Legal Intelligence Platform for Case 1FDV-23-0001009",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "deploy": "npm run build && node dist/index.js"
+  },
+  "dependencies": {
+    "@hashgraph/sdk": "^2.49.0",
+    "@octokit/rest": "^20.0.2",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "express": "^4.18.0",
+    "dotenv": "^16.0.0"
+  },
+  "keywords": ["legal", "intelligence", "hawaii", "family-court", "case-management"],
+  "author": "Casey Del Carpio Barton",
+  "license": "MIT"
+}
